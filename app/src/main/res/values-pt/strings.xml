@@ -1,0 +1,46 @@
+<resources>
+
+
+    <string name="pref_stocks_key">Ações</string>
+
+    <string name="pref_display_mode_key">Modo de exibição</string>
+    <string name="recycler_description">Ações da bolsa</string>
+
+    <string name="pref_display_mode_key_absolute">Alterar modo de exibição para Valor absoluto</string>
+    <string name="pref_display_mode_key_percentage">Alterar modo de exibição para Porcentagem</string>
+
+    <string name="pref_display_mode_default">@string/pref_display_mode_key_absolute</string>
+
+    <string name="pref_display_mode_absolute_key">Valor absoluto</string>
+    <string name="pref_display_mode_percentage_key">Porcentagem</string>
+
+    <string name="action_change_units">@string/pref_display_mode_key_absolute</string>
+
+    <string name="dialog_title">Adicionar ação</string>
+    <string name="dialog_hint">Símbolo da ação (exemplo: As ações do Google são representada pela sigla GOOG)</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_add">Adicionar</string>
+
+    <string name="error_no_network">Sem conexão de Internet! Ações serão recarregadas assim que a conexão for reestabelecida.</string>
+    <string name="error_no_stocks">Nenhuma ação adicionada! Clique no botão flutuante para adicionar uma nova ação.</string>
+
+    <string name="toast_stock_added_no_connectivity">Ação %s adicionada. Lista será atualizada assim que a conexão for reestabelecida.</string>
+    <string name="toast_no_connectivity">Lista será atualizada assim que a conexão for reestabelecida.</string>
+
+    <string name="empty_stock_list">Nenhuma ação adicionada!</string>
+
+    <!-- Content Description -->
+
+    <string name="add_stock">Adicionar nova ação</string>
+    <string name="type_new_stock">Digita a sigla da ação</string>
+
+    <string name="title_widget_detail">Stock Hawk - Lista de Ações</string>
+
+    <string name="title_widget_info_detail">Exibindo Ações com informações na seguinte ordem : Sigla, Valor total da Ação, flutuação em porcentagem, flutuação em valor absoluto</string>
+
+    <string name="report_detail_six_months_header">Últimas 6 datas de referência</string>
+
+    <string name="stock_date_chart">Data da ação</string>
+
+</resources>
+

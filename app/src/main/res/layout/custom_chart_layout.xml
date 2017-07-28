@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:background="@color/zp_primary_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/customChartLayout"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textBarAmount"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/headerLayout"
+            android:background="@android:color/darker_gray">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rightDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textBarAmount"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/headerLayout"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone"></RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/polygonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/dashedLine"
+            android:layout_above="@+id/textBarAmount">
+            <ImageView
+                android:id="@+id/imageChartPolygon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textBarAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:text="DERP"
+            android:textColor="@android:color/black"
+            android:textSize="9dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/dashedLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/headerLayout"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:layerType="software"
+            android:src="@drawable/dashed_line"></ImageView>
+
+        <TextView
+            android:id="@+id/textMaxAmountForPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dashedLine"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="2dp"
+            android:text="R$ 50.000,00"
+            android:textColor="@android:color/black"
+            android:textSize="8dp"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textMonthHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="MAR"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+

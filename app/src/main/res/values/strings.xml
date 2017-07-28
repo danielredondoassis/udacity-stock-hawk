@@ -1,0 +1,55 @@
+<resources>
+    <string translatable="false" name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key">stocks</string>
+
+    <string name="recycler_description">Stock list</string>
+
+    <string name="pref_display_mode_key">displayMode</string>
+
+    <string name="pref_display_mode_key_absolute">Change Display Mode to absolute</string>
+    <string name="pref_display_mode_key_percentage">Change Display Mode to percentage</string>
+
+    <string name="pref_display_mode_default">@string/pref_display_mode_key_absolute</string>
+
+    <string name="pref_display_mode_absolute_key">absolute</string>
+    <string name="pref_display_mode_percentage_key">percentage</string>
+
+    <string translatable="false" name="default_stocks_yahoo">YHOO</string>
+    <string translatable="false" name="default_stocks_apple">AAPL</string>
+    <string translatable="false" name="default_stocks_microsoft">MSFT</string>
+    <string translatable="false" name="default_stocks_facebook">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key_absolute</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+
+    <string name="empty_stock_list">No Stocks Added!</string>
+
+    <!-- Content Description -->
+
+    <string name="add_stock">Add new stock</string>
+    <string name="type_new_stock">Type new stock</string>
+
+    <string name="title_widget_detail">Stock Hawk Quote List</string>
+
+    <string name="title_widget_info_detail">Displaying Quotes with info in the following order: Symbol, stock total value, percentage fluctuation, absolute value fluctuation</string>
+
+    <string name="report_detail_six_months_header">Last 6 reference dates</string>
+
+    <string name="stock_date_chart">Stock date</string>
+
+</resources>

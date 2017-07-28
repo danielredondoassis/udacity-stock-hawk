@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udacity.stockhawk.ui.MainActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/white"
+            android:id="@+id/reportDetailTransactionLayout"
+            android:clickable="true">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textHeader"
+                android:text="@string/report_detail_six_months_header"
+                android:layout_marginTop="10dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:lines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical" />
+
+            <LinearLayout
+                android:id="@+id/reportChartLayout"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reportArrow"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageArrowDown1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="-2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+                <ImageView
+                    android:id="@+id/imageArrowDown2"
+                    android:layout_marginTop="-2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+                <ImageView
+                    android:id="@+id/imageArrowDown3"
+                    android:layout_marginTop="-2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+                <ImageView
+                    android:id="@+id/imageArrowDown4"
+                    android:layout_marginTop="-2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+                <ImageView
+                    android:id="@+id/imageArrowDown5"
+                    android:layout_marginTop="-2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+                <ImageView
+                    android:id="@+id/imageArrowDown6"
+                    android:layout_marginTop="-2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:src="@drawable/arrow_down" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
