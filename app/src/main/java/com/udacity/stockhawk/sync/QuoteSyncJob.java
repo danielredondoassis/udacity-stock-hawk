@@ -8,7 +8,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.widget.Toast;
 
+import com.udacity.stockhawk.R;
 import com.udacity.stockhawk.data.Contract;
 import com.udacity.stockhawk.data.PrefUtils;
 
@@ -111,6 +113,8 @@ public final class QuoteSyncJob {
                     } catch (FileNotFoundException fileNotFoundException){
                         fileNotFoundException.printStackTrace();
                     }
+                }  else {
+                    Toast.makeText(context, symbol + " " + context.getResources().getString(R.string.stock_not_found), Toast.LENGTH_SHORT).show();
                 }
 
             }

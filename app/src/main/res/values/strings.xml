@@ -25,6 +25,9 @@
 
     <string name="action_change_units">@string/pref_display_mode_key_absolute</string>
 
+    <string name="dialog_title_attention">Attention!</string>
+    <string name="dialog_desc_attention">You need to enter a valid stock symbol.</string>
+    <string name="stock_not_found">stock not found.</string>
 
     <string name="dialog_title">Add Stock</string>
     <string name="dialog_hint">Symbol (e.g. GOOG)</string>

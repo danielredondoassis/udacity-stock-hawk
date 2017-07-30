@@ -20,6 +20,7 @@
     <string name="dialog_hint">Símbolo da ação (exemplo: As ações do Google são representada pela sigla GOOG)</string>
     <string name="dialog_cancel">Cancelar</string>
     <string name="dialog_add">Adicionar</string>
+    <string name="stock_not_found">ação não encontrada.</string>
 
     <string name="error_no_network">Sem conexão de Internet! Ações serão recarregadas assim que a conexão for reestabelecida.</string>
     <string name="error_no_stocks">Nenhuma ação adicionada! Clique no botão flutuante para adicionar uma nova ação.</string>
@@ -28,6 +29,9 @@
     <string name="toast_no_connectivity">Lista será atualizada assim que a conexão for reestabelecida.</string>
 
     <string name="empty_stock_list">Nenhuma ação adicionada!</string>
+
+    <string name="dialog_title_attention">Atenção!</string>
+    <string name="dialog_desc_attention">Você precisa adicionar uma sigla de ação válida.</string>
 
     <!-- Content Description -->
 
